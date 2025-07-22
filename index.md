@@ -12,4 +12,4 @@
 👉 未來會持續更新，歡迎追蹤！
 
 # 📚 技術文章
-- [Rx訂閱與event事件](./posts/RxAndEvent.md)
+- [訂閱(Rx)與事件(Event)的差異和適用場景](./posts/RxAndEvent.md)
