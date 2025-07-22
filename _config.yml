@@ -1,21 +1,4 @@
 # _config.yml
 title: 林浩唐 自動化技術分享
 description: 分享我的自動化與醫療設備技術實作
-
-
-markdown: kramdown
-theme: minima  # 如果你是用 minima 而不是 minimal，請確認 spelling
-sass:
-  style: compressed
-
-# 告訴 Jekyll 使用我們自訂的樣式表
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      css: "/assets/css/style.css"
+theme: modernist
