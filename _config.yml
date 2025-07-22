@@ -1,4 +1,11 @@
-# _config.yml
 title: 林浩唐 自動化技術分享
 description: 分享我的自動化與醫療設備技術實作
-theme: jekyll-theme-modernist
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# 以下是一些 Minimal Mistakes 的基本設定（可選）
+minimal_mistakes_skin: default
+author:
+  name: 林浩唐
