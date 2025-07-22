@@ -1,5 +1,3 @@
-layout: default
-<link rel="stylesheet" href="/HaoTangPages/assets/css/style.css">
 
 # 歡迎來到我的技術分享主頁
 
