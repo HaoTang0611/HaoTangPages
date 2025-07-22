@@ -12,4 +12,4 @@
 👉 未來會持續更新，歡迎追蹤！
 
 # 📚 技術文章
-- [SDI 轉 DICOM 的實作經驗](./posts/20250722.md)
+- [Rx訂閱與event事件](./posts/RxAndEvent.md)
