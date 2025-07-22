@@ -1,0 +1,20 @@
+/* assets/css/style.css */
+/* 提升主標題字重，微調間距 */
+h1 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5em;
+}
+/* 調整段落行高與字級 */
+p {
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+/* 美化列表 */
+ul li {
+  margin: 0.4em 0;
+}
+a {
+  text-decoration: underline;
+  font-weight: 500;
+}
