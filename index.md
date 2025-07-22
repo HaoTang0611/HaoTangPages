@@ -1,5 +1,4 @@
-<!-- in your default layout -->
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
 # 歡迎來到我的技術分享主頁
 
 這裡將分享我在 3D 影像、醫療影像轉換、晶圓自動化技術開發等領域的心得與實作經驗。
