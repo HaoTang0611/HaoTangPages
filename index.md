@@ -17,4 +17,4 @@ author_profile: true
 
 # 📚 技術文章
 - [訂閱與事件的差異和適用場景](./posts/RxAndEvent.md)
-- [訂閱與事件的差異和適用場景](./posts/MotionPhotography01.md)
+- [高倍率晶圓飛拍檢測系統的挑戰與解決方案](./posts/MotionPhotography01.md)
