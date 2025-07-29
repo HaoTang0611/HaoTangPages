@@ -1,14 +1,11 @@
 ---
 layout: single
 title: "高倍率晶圓飛拍檢測系統的挑戰與解決方案"
-excerpt: "探討晶圓飛拍技術如何解決高倍率檢測的耗時問題及其技術挑戰"
-date: 2025-07-29
+excerpt: "訂閱與事件"
+date: 2025-07-21
 author: 林浩唐
 tags: [自動化, 晶圓檢測, 飛拍技術]
 categories: [技術分享]
-toc: true
-toc_label: "目錄"
-toc_icon: "cog"
 ---
 
 # 高倍率晶圓飛拍檢測系統的挑戰與解決方案
