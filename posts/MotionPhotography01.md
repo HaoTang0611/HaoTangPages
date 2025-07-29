@@ -6,10 +6,6 @@ date: 2025-07-29
 author: 林浩唐
 tags: [自動化, 晶圓檢測, 飛拍技術]
 categories: [技術分享]
-header:
-  teaser: "/assets/images/wafer-inspection-teaser.jpg"
-  overlay_image: "/assets/images/wafer-inspection-header.jpg"
-  overlay_filter: 0.5
 toc: true
 toc_label: "目錄"
 toc_icon: "cog"
