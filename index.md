@@ -17,3 +17,4 @@ author_profile: true
 
 # 📚 技術文章
 - [訂閱與事件的差異和適用場景](./posts/RxAndEvent.md)
+- [訂閱與事件的差異和適用場景](./posts/MotionPhotography01.md)
