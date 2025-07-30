@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 林浩唐的技術分享
+title: 林浩唐自動化技術分享
 author_profile: true
 ---
 
