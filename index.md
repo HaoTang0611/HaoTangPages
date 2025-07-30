@@ -13,7 +13,8 @@ author_profile: true
 - 自動化拍照與飛拍演算法
 - 物件導向觀念與 MVVM 架構
 
-👉 未來會持續更新，歡迎追蹤！
+歡迎來信技術交流：
+matt121031231@gmail.com
 
 # 📚 技術文章
 - [訂閱與事件的差異和適用場景](./posts/RxAndEvent.md)
