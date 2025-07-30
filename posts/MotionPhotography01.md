@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "高倍率晶圓飛拍檢測系統的挑戰與解決方案"
+title: "高倍晶圓飛拍檢測系統的挑戰與解決方案"
 excerpt: "訂閱與事件"
 date: 2025-07-21
 author: 林浩唐
