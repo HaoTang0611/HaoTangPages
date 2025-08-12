@@ -19,3 +19,4 @@ matt121031231@gmail.com
 # 📚 技術文章
 - [訂閱與事件的差異和適用場景](./posts/RxAndEvent.md)
 - [高倍晶圓飛拍檢測系統的挑戰與解決方案](./posts/MotionPhotography01.md)
+- [醫療自動化的困難與挑戰](./posts/MedicalAutomation01.md)
