@@ -17,6 +17,14 @@ author_profile: true
 matt121031231@gmail.com 
 
 # 📚 技術文章
+
+程式設計：
 - [訂閱與事件的差異和適用場景](./posts/RxAndEvent.md)
+
+飛拍：
 - [高倍晶圓飛拍檢測系統的挑戰與解決方案](./posts/MotionPhotography01.md)
+- [飛拍檢測系統相機與運動速度](./posts/MotionPhotography02.md)
+
+醫療自動化：
 - [醫療自動化的困難與挑戰](./posts/MedicalAutomation01.md)
+
