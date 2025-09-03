@@ -2,7 +2,7 @@
 layout: single
 title: "醫療自動化的困難與挑戰"
 excerpt: "探討醫療自動化在落地過程中常見的問題與限制"
-date: 2025-07-21
+date: 2025-08-13
 author: 林浩唐
 tags: [自動化, 醫療, 病理科]
 categories: [技術分享]
