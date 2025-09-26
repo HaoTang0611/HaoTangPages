@@ -1,5 +1,6 @@
 title: 林浩唐 軟體開發技術分享
 description: 分享我的軟體開發技術實作
+theme: jekyll-theme-modernist
 remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme
