@@ -18,8 +18,8 @@ matt121031231@gmail.com
 
 # 📚 技術文章
 
-光片顯微術：
-- [光片顯微術取像設備](./posts/LightSheet01.md)
+光片顯微術成像系統：
+- [光片顯微術成像系統的設計原則與技術挑戰](./posts/LightSheet01.md)
 
 程式設計：
 - [訂閱與事件的差異和適用場景](./posts/RxAndEvent.md)
