@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "光片顯微術成像系統的設計原則與技術挑戰"
-excerpt: "光片顯微術"
+excerpt: "光片顯微術技術說明"
 date: 2025-09-26
 author: 林浩唐
 tags: [醫療, 生物科技, 光片, 光片顯微術 ]
