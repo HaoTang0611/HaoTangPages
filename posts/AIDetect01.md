@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "AI 視覺影像系統種類"
-excerpt: "AI 視覺影像系統種類"
+title: "AI 視覺影像系統設計要點"
+excerpt: "AI 視覺影像系統設計要點"
 date: 2025-09-26
 author: 林浩唐
 tags: [AI, 檢測, 分類, 半導體 ]
