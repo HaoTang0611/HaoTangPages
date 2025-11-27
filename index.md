@@ -21,7 +21,7 @@ author_profile: true
 matt121031231@gmail.com 
 
 # 📚 技術文章
-
+- [AI 視覺影像系統設計要點](./posts/AIDetect01.md)
 - [層光顯微術成像系統的設計原則與技術挑戰](./posts/LightSheet01.md)
 - [3D量測設備整合應用 - 雷射共軛焦](./posts/OpticalProfiler01.md)
 - [高倍晶圓飛拍檢測系統的挑戰與解決方案](./posts/MotionPhotography01.md)
