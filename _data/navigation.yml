@@ -1,9 +1,9 @@
 main:
   - title: "首頁"
-    url: /HaoTangPages/
+    url: /
   - title: "技術文章"
-    url: /HaoTangPages/#articles
+    url: /#articles
   - title: "聯絡我"
-    url: /HaoTangPages/#contact
+    url: /#contact
   - title: "GitHub"
     url: https://github.com/HaoTang0611

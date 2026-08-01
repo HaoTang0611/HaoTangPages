@@ -57,7 +57,7 @@ a { text-underline-offset: 0.18em; }
 .hero-panel::after { position: absolute; right: -8rem; bottom: -11rem; width: 25rem; height: 25rem; border: 1px solid rgba(255,255,255,.15); border-radius: 50%; box-shadow: 0 0 0 4rem rgba(255,255,255,.035), 0 0 0 8rem rgba(255,255,255,.025); content: ""; }
 .hero-panel__eyebrow, .section-heading__eyebrow { margin: 0 0 .85rem; color: var(--brand); font-size: .76rem; font-weight: 800; letter-spacing: .16em; }
 .hero-panel__eyebrow { color: #8fe3e8; }
-.hero-panel h1 { position: relative; z-index: 1; max-width: 15ch; margin: 0 0 1.2rem; color: #fff; font-size: clamp(2rem, 5vw, 3.8rem); line-height: 1.15; }
+.hero-panel h1 { position: relative; z-index: 1; max-width: 18ch; margin: 0 0 1.2rem; color: #fff; font-size: clamp(2rem, 4.5vw, 3.5rem); line-height: 1.15; }
 .hero-panel__lead { position: relative; z-index: 1; max-width: 43rem; margin-bottom: 1.8rem; color: #d9eaed; font-size: clamp(1rem, 2vw, 1.2rem); }
 .hero-panel__actions { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: .75rem; }
 .button { display: inline-flex; align-items: center; justify-content: center; padding: .78rem 1.15rem; border-radius: .4rem; font-weight: 700; text-decoration: none !important; transition: transform .2s ease, background .2s ease; }

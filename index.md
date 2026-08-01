@@ -6,7 +6,7 @@ author_profile: false
 
 <section class="hero-panel">
   <p class="hero-panel__eyebrow">SOFTWARE ENGINEERING · MACHINE VISION</p>
-  <h1>把複雜的工程問題，整理成能落地的技術方法</h1>
+  <h1>讓複雜技術，真正落地</h1>
   <p class="hero-panel__lead">我是林浩唐，一名專注於 C#、WPF、影像演算法與自動化設備整合的軟體工程師。這裡記錄從系統設計到現場實作的經驗與思考。</p>
   <div class="hero-panel__actions">
     <a class="button button--primary" href="#articles">瀏覽技術文章</a>
