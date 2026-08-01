@@ -44,10 +44,11 @@ a { text-underline-offset: 0.18em; }
 .initial-content { min-height: 70vh; }
 .masthead__inner-wrap, #main { max-width: 1480px; }
 .layout--home .archive__subtitle, .layout--home .entries-list { display: none; }
-.page, .archive { padding-right: 0; }
+.page, .archive { padding-right: 0; padding-inline-end: 0; }
 .page { float: none; width: 100%; max-width: 1000px; margin-right: auto; margin-left: auto; }
 .page__inner-wrap > header, .page__content { width: 100%; max-width: 900px; margin-right: auto; margin-left: auto; }
 .page__content { position: relative; float: none; font-size: 1em; }
+.page .page__inner-wrap .page__content { float: none; width: 100%; max-width: 900px; margin-right: auto; margin-left: auto; }
 .page__content p, .page__content li { line-height: 1.85; }
 .page__content img { display: block; max-width: 100%; height: auto; margin: 2rem auto 0.75rem; border-radius: 0.65rem; box-shadow: var(--shadow); }
 .page__content figcaption { color: var(--muted); text-align: center; font-size: 0.85em; }
