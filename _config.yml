@@ -1,12 +1,45 @@
-title: 林浩唐 軟體開發技術分享
-description: 分享我的軟體開發技術實作
-theme: jekyll-theme-modernist
+title: 林浩唐技術筆記
+title_separator: "|"
+subtitle: Software Engineering & Imaging Systems
+description: 分享 C#、WPF、機器視覺、自動化設備與影像演算法的實務經驗
+url: "https://haotang0611.github.io"
+baseurl: "/HaoTangPages"
+repository: "HaoTang0611/HaoTangPages"
+locale: "zh-TW"
 remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-# 以下是一些 Minimal Mistakes 的基本設定（可選）
 minimal_mistakes_skin: default
+search: true
+search_full_content: true
+enable_copy_code_button: true
 author:
   name: 林浩唐
+  bio: 專注於 C#、WPF、機器視覺與自動化設備整合的軟體工程師
+  location: Taiwan
+  links:
+    - label: Email
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:matt121031231@gmail.com"
+    - label: GitHub
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/HaoTang0611"
+
+footer:
+  links:
+    - label: GitHub
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/HaoTang0611"
+
+defaults:
+  - scope:
+      path: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      toc: true
+      toc_sticky: true
