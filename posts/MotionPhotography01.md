@@ -10,7 +10,7 @@ categories: [技術分享]
 
 高倍率晶圓檢測的**核心挑戰**在於全檢耗時過長。隨著檢測倍率的提升，所需拍攝的圖片數量呈**指數型增長**，導致檢測時間大幅增加。為解決此問題，**飛拍技術**（即在載台移動時連續拍攝）成為一種高效方法，能顯著縮短檢測時間。然而，實現飛拍需克服多項技術難題。以下從五個關鍵面向進行探討：
 
-<figure class="article-figure article-figure--wide">
+<figure class="article-figure">
   <img src="{{ '/assets/images/posts/motion-photography/wafer-fly-scan.gif' | relative_url }}" alt="高倍晶圓飛拍檢測系統執行掃描、影像定位與檢測結果判定的操作動畫" loading="lazy" decoding="async">
   <figcaption>高倍晶圓飛拍檢測流程：結合晶圓定位、連續取像與檢測結果管理。</figcaption>
 </figure>
