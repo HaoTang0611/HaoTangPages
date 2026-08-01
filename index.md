@@ -36,6 +36,7 @@ matt121031231@gmail.com
 <form class="contact-form" action="https://formsubmit.co/matt121031231@gmail.com" method="POST">
   <input type="hidden" name="_subject" value="HaoTangPages 網站的新訊息">
   <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_next" value="https://haotang0611.github.io/HaoTangPages/thanks/">
   <input type="text" name="_honey" class="contact-form__honey" tabindex="-1" autocomplete="off">
 
   <div class="contact-form__field">
