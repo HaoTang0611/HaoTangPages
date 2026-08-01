@@ -55,6 +55,8 @@ a { text-underline-offset: 0.18em; }
 .article-figure img { width: auto; max-width: 100%; height: auto; margin-right: auto; margin-bottom: .75rem; margin-left: auto; object-fit: contain; user-select: none; -webkit-user-drag: none; }
 .article-figure figcaption { max-width: 52rem; margin: 0 auto; line-height: 1.65; }
 .article-figure--compact { max-width: 32rem; margin-right: auto; margin-left: auto; }
+.article-figure--wide { width: min(1100px, calc(100vw - 2rem)); margin-right: 0; margin-left: 50%; transform: translateX(-50%); }
+.article-figure--wide img { width: 100%; }
 .page__content blockquote { border-left-color: var(--brand); background: var(--surface-soft); }
 .page__title { font-weight: 760; }
 .page__content > .sidebar__right { position: static; display: block; float: none; width: 100%; margin: .5rem 0 2.5rem; }
