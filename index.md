@@ -29,3 +29,89 @@ matt121031231@gmail.com
 - [醫療自動化的困難與挑戰](./posts/MedicalAutomation01.md)
 - [訂閱與事件的差異和適用場景](./posts/RxAndEvent.md)
 
+# ✉️ 傳送訊息給我
+
+如果你想交流技術、討論合作或提供建議，歡迎填寫以下表單。我收到後會透過你留下的 Email 回覆。
+
+<form class="contact-form" action="https://formsubmit.co/matt121031231@gmail.com" method="POST">
+  <input type="hidden" name="_subject" value="HaoTangPages 網站的新訊息">
+  <input type="hidden" name="_template" value="table">
+  <input type="text" name="_honey" class="contact-form__honey" tabindex="-1" autocomplete="off">
+
+  <div class="contact-form__field">
+    <label for="contact-name">名稱</label>
+    <input id="contact-name" name="名稱" type="text" autocomplete="name" maxlength="80" required>
+  </div>
+
+  <div class="contact-form__field">
+    <label for="contact-email">Email</label>
+    <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+  </div>
+
+  <div class="contact-form__field">
+    <label for="contact-message">內容</label>
+    <textarea id="contact-message" name="內容" rows="7" maxlength="3000" required></textarea>
+  </div>
+
+  <button type="submit">傳送訊息</button>
+</form>
+
+<style>
+  .contact-form {
+    max-width: 42rem;
+    margin-top: 1.25rem;
+    padding: 1.5rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 0.5rem;
+    background: #fafafa;
+  }
+
+  .contact-form__field {
+    margin-bottom: 1rem;
+  }
+
+  .contact-form label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-weight: 600;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.65rem 0.75rem;
+    border: 1px solid #b8b8b8;
+    border-radius: 0.25rem;
+    background: #fff;
+    color: #222;
+    font: inherit;
+  }
+
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #2463a6;
+    outline: 2px solid rgba(36, 99, 166, 0.2);
+  }
+
+  .contact-form button {
+    padding: 0.7rem 1.25rem;
+    border: 0;
+    border-radius: 0.25rem;
+    background: #2463a6;
+    color: #fff;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background: #194b80;
+  }
+
+  .contact-form__honey {
+    position: absolute !important;
+    left: -9999px !important;
+  }
+</style>
+
