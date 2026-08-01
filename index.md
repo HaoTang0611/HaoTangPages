@@ -1,6 +1,5 @@
 ---
 layout: home
-title: 林浩唐軟體開發技術分享
 author_profile: false
 ---
 
