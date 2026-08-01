@@ -52,6 +52,11 @@ a { text-underline-offset: 0.18em; }
 .page__title { font-weight: 760; }
 .toc { border-color: var(--line); border-radius: 0.5rem; box-shadow: none; }
 .toc .nav__title { background: var(--ink); }
+.article-contact { margin-top: 3.5rem; padding: 1.6rem 1.8rem; border-left: 4px solid var(--brand); border-radius: .5rem; background: var(--surface-soft); }
+.article-contact h2 { margin: 0 0 .4rem; font-size: 1.25rem; }
+.article-contact p { margin: 0 0 .75rem; color: var(--muted); }
+.article-contact a { color: var(--brand-dark); font-weight: 750; text-decoration: none; }
+.article-contact a:hover { text-decoration: underline; }
 
 .hero-panel { position: relative; overflow: hidden; margin: 1rem 0 5rem; padding: clamp(2.2rem, 7vw, 5.5rem); border-radius: 1rem; color: #dfeef1; background: linear-gradient(135deg, #102d3a 0%, #075d68 70%, #087e8b 100%); box-shadow: var(--shadow); }
 .hero-panel::after { position: absolute; right: -8rem; bottom: -11rem; width: 25rem; height: 25rem; border: 1px solid rgba(255,255,255,.15); border-radius: 50%; box-shadow: 0 0 0 4rem rgba(255,255,255,.035), 0 0 0 8rem rgba(255,255,255,.025); content: ""; }

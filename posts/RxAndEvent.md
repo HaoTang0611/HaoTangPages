@@ -26,7 +26,8 @@ categories: [技術分享]
 
 因此，當開發場景涉及跨執行緒更新 UI、多來源資料流整合、或需即時監聽狀態變化時，訂閱會比傳統事件更為合適與穩定。
 
----
-
-## 歡迎 Email 技術交流
-matt121031231@gmail.com
+<div class="article-contact">
+  <h2>想交流這篇文章？</h2>
+  <p>歡迎分享你的想法、問題或合作需求。</p>
+  <a href="{{ site.baseurl }}/#contact">傳送訊息給我 →</a>
+</div>

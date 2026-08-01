@@ -68,7 +68,8 @@ categories: [技術分享]
 
 理解並計算這些限制，才能建立一個既可靠又高效的飛拍系統。
 
----
-
-## 歡迎 Email 技術交流
-matt121031231@gmail.com
+<div class="article-contact">
+  <h2>想交流這篇文章？</h2>
+  <p>歡迎分享你的想法、問題或合作需求。</p>
+  <a href="{{ site.baseurl }}/#contact">傳送訊息給我 →</a>
+</div>
