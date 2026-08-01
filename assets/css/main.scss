@@ -10,6 +10,10 @@ $background-color: #f7f9fc;
 $text-color: #243447;
 $muted-text-color: #66788a;
 $border-color: #dce3ea;
+$max-width: 1480px;
+$right-sidebar-width-narrow: 190px;
+$right-sidebar-width: 220px;
+$right-sidebar-width-wide: 250px;
 
 @import "minimal-mistakes";
 
@@ -38,6 +42,7 @@ a { text-underline-offset: 0.18em; }
 .page__footer { margin-top: 5rem; color: #d7e2e7; background: var(--ink); }
 .page__footer a { color: #fff; }
 .initial-content { min-height: 70vh; }
+.masthead__inner-wrap, #main { max-width: 1480px; }
 .page, .archive { padding-right: 0; }
 .page__content { font-size: 1em; }
 .page__content p, .page__content li { line-height: 1.85; }
@@ -90,6 +95,20 @@ a { text-underline-offset: 0.18em; }
   .expertise-grid, .article-grid, .contact-section { grid-template-columns: 1fr; }
   .article-card { min-height: auto; }
   .contact-section { padding: 1.25rem; }
+}
+
+@media (min-width: 1024px) {
+  .archive { width: 100%; }
+  .layout--home .archive { padding-right: 0; }
+}
+
+@media (min-width: 1024px) and (max-width: 1240px) {
+  .article-grid { grid-template-columns: 1fr; }
+  .article-card { min-height: auto; }
+}
+
+@media (min-width: 1280px) {
+  .page__content { font-size: 1.04em; }
 }
 
 @media print {

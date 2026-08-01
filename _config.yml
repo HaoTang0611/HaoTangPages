@@ -38,7 +38,7 @@ defaults:
       path: "posts"
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       share: true
       toc: true
