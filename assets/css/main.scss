@@ -44,7 +44,9 @@ a { text-underline-offset: 0.18em; }
 .initial-content { min-height: 70vh; }
 .masthead__inner-wrap, #main { max-width: 1480px; }
 .page, .archive { padding-right: 0; }
-.page__content { font-size: 1em; }
+.page { float: none; width: 100%; }
+.page__inner-wrap > header, .page__content { width: 100%; max-width: 900px; margin-right: auto; margin-left: auto; }
+.page__content { position: relative; float: none; font-size: 1em; }
 .page__content p, .page__content li { line-height: 1.85; }
 .page__content img { display: block; max-width: 100%; height: auto; margin: 2rem auto 0.75rem; border-radius: 0.65rem; box-shadow: var(--shadow); }
 .page__content figcaption { color: var(--muted); text-align: center; font-size: 0.85em; }
@@ -118,6 +120,14 @@ a { text-underline-offset: 0.18em; }
 
 @media (min-width: 1280px) {
   .page__content { font-size: 1.04em; }
+}
+
+@media (max-width: 1399px) {
+  .page__content > .sidebar__right { display: none; }
+}
+
+@media (min-width: 1400px) {
+  .page__content > .sidebar__right { position: absolute; top: 0; left: calc(100% + 2.25rem); width: 220px; margin: 0; }
 }
 
 @media print {
