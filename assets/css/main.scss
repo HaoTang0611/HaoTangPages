@@ -50,17 +50,17 @@ a { text-underline-offset: 0.18em; }
 .page__content p, .page__content li { line-height: 1.85; }
 .page__content img { display: block; max-width: 100%; height: auto; margin: 2rem auto 0.75rem; border-radius: 0.65rem; box-shadow: var(--shadow); }
 .page__content figcaption { color: var(--muted); text-align: center; font-size: 0.85em; }
-.article-figure { margin: 2.25rem 0; }
-.article-figure img { width: auto; max-width: 100%; height: auto; margin-right: auto; margin-bottom: .75rem; margin-left: auto; object-fit: contain; }
+.article-figure { position: relative; margin: 2.25rem 0; }
+.article-figure img { width: auto; max-width: 100%; height: auto; margin-right: auto; margin-bottom: .75rem; margin-left: auto; object-fit: contain; user-select: none; -webkit-user-drag: none; }
 .article-figure figcaption { max-width: 52rem; margin: 0 auto; line-height: 1.65; }
 .article-figure--compact { max-width: 32rem; margin-right: auto; margin-left: auto; }
 .page__content blockquote { border-left-color: var(--brand); background: var(--surface-soft); }
 .page__title { font-weight: 760; }
 .page__content > .sidebar__right { position: static; display: block; float: none; width: 100%; margin: .5rem 0 2.5rem; }
-.toc { border: 1px solid var(--line); border-radius: .65rem; background: var(--surface-soft); box-shadow: none; }
+.toc { max-width: 42rem; margin-right: auto; margin-left: auto; border: 1px solid var(--line); border-radius: .65rem; background: var(--surface-soft); box-shadow: none; }
 .toc .nav__title { margin: 0; padding: .75rem 1rem; color: #fff; background: var(--ink); font-size: 0; }
 .toc .nav__title::after { content: "文章目錄"; font-size: .9rem; letter-spacing: .04em; }
-.toc__menu { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .15rem 1.25rem; padding: .75rem 1rem 1rem; }
+.toc__menu { display: grid; grid-template-columns: 1fr; gap: .15rem; padding: .75rem 1rem 1rem; }
 .toc__menu li { margin: 0; }
 .toc__menu a { border-bottom: 0; color: var(--body); font-size: .86rem; line-height: 1.45; }
 .toc__menu a:hover { color: var(--brand-dark); text-decoration: underline; }
@@ -126,10 +126,6 @@ a { text-underline-offset: 0.18em; }
 
 @media (min-width: 1280px) {
   .page__content { font-size: 1.04em; }
-}
-
-@media (max-width: 640px) {
-  .toc__menu { grid-template-columns: 1fr; }
 }
 
 @media print {
