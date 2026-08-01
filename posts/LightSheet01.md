@@ -29,10 +29,20 @@ categories: [技術分享]
 相機需要高解析度，軟體需要有效率處理圖像，拍攝設備需要快速，但不能失去穩定性，盡可能避免樣本受到影響。
 在 3D 重建方面，多角度成像需要演算法來校正散射與失真，對硬體設備的運算能力與儲存空間皆有高度要求。
 
+<figure class="article-figure">
+  <img src="{{ '/assets/images/posts/light-sheet/imaging-result.png' | relative_url }}" alt="層光顯微成像軟體顯示樣本螢光影像、相機參數與亮度直方圖" loading="lazy" decoding="async">
+  <figcaption>層光顯微成像畫面：同步呈現樣本影像、相機參數與亮度分布。</figcaption>
+</figure>
+
 ## 4. 系統整合  
 需設計雷射、光學元件的校正功能，讓設備能夠精準取得影像，透過軟體設計，可以大幅減少後續影像重建難度。
 同步控制，相機曝光、Z軸掃描、光片移動、雷射強度、散射補正，需要高度同步，延遲將造成影像模糊和失真。
 機構穩定度是長時間掃描的關鍵，系統對震動與熱飄移高度敏感，因此需針對環境影響進行補償與控制。
+
+<figure class="article-figure">
+  <img src="{{ '/assets/images/posts/light-sheet/control-interface.png' | relative_url }}" alt="層光顯微設備控制介面，整合雷射、焦距、掃描位置與設備狀態" loading="lazy" decoding="async">
+  <figcaption>設備控制介面：整合雷射、焦距、掃描位置、硬體狀態與操作紀錄。</figcaption>
+</figure>
 
 ## 5. 使用者需求  
 若要提升自動化程度，必須減少使用者在對位與參數調整上的負擔，因此直觀且便捷的 UI 設計將是系統不可或缺的一環。

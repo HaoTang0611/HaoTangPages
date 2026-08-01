@@ -16,6 +16,11 @@ categories: [技術分享]
 
 接下來需要分析輸出資訊。有些儀器的輸出內容包含內建的量測功能，但這次評估的儀器僅能輸出原始數據，也就是整個量測面的逐像素高度資訊。因此，我必須額外設計一套符合客戶需求的量測演算法。
 
+<figure class="article-figure">
+  <img src="{{ '/assets/images/posts/optical-profiler/height-measurement.png' | relative_url }}" alt="雷射共軛焦量測結果，對照表面影像、高度色階圖、剖面曲線與多點高度數值" loading="lazy" decoding="async">
+  <figcaption>雷射共軛焦量測結果：由逐像素高度資料建立色階圖、剖面曲線與尺寸判定。</figcaption>
+</figure>
+
 在確認上述條件後，便能初步判斷該儀器具備自動化的可行性。其中主要的開發成本將集中在「自動控制」與「量測演算法」兩大部分。
 
 <div class="article-contact">

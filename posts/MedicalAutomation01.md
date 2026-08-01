@@ -10,6 +10,11 @@ categories: [技術分享]
 
 醫療自動化是未來發展的重要方向，但在實際落地過程中，會遇到許多特殊的挑戰與限制。以下是我在實務中觀察到的幾個主要問題：
 
+<figure class="article-figure article-figure--compact">
+  <img src="{{ '/assets/images/posts/medical-automation/imaging-interface.png' | relative_url }}" alt="醫療影像自動化軟體介面，呈現即時影像、擷取結果與多個影像來源" loading="lazy" decoding="async">
+  <figcaption>醫療影像自動化介面：將即時影像、設備操作與資料管理整合於同一流程。</figcaption>
+</figure>
+
 ## 1. 設備缺乏通訊介面  
 許多醫療設備在設計時，並未將自動化作為使用情境，因此缺乏可供控制的通訊介面。要讓這些設備具備自動化功能，往往需要透過各種創新的技術手段「外掛」控制機制。某些情況下，設備本身的限制讓全自動化無法實現，只能退而求其次，達成半自動化。
 

@@ -10,6 +10,11 @@ categories: [技術分享]
 
 AI 影像檢測有多種類型，需依照應用場合決定採用哪種方式。常見的有以下三種：
 
+<figure class="article-figure">
+  <img src="{{ '/assets/images/posts/ai-vision/system-interface.png' | relative_url }}" alt="AI 視覺檢測系統操作介面，包含檢測結果、缺陷清單與影像標記" loading="lazy" decoding="async">
+  <figcaption>AI 視覺檢測系統介面：整合檢測結果、缺陷資料與影像定位。</figcaption>
+</figure>
+
 ## 1. 分割 Segmentation
 透過標記像素點訓練模型，能精準找到缺陷位置，並可進行尺寸計算或量測。適合不規則形狀、細微瑕疵，但標註成本最高、訓練量大、推論速度較慢。
 要訓練分割模型，需要設計一套可標記像素區域的使用者介面。常見做法是將 UI 設計成類似小畫家的繪圖介面，讓使用者圈選或塗滿缺陷區域。
@@ -19,6 +24,11 @@ AI 影像檢測有多種類型，需依照應用場合決定採用哪種方式�
 透過畫框標記缺陷或物件位置，可精準定位、標註快速、模型輕量，並能應用於對位與量測，但無法處理不規則形狀，較適合幾何性質明確的任務。
 要訓練物件偵測模型，需要設計可調整尺寸的標記工具，讓使用者能夠直接點選畫面建立框線。
 標記工具亦需支援拖曳與刪除功能，因為訓練過程會不斷微調，若缺乏這些功能，標記將變得非常困難。
+
+<figure class="article-figure">
+  <img src="{{ '/assets/images/posts/ai-vision/wafer-defect-detection.png' | relative_url }}" alt="晶圓表面影像中的 AI 缺陷偵測結果，紅色標記指出異常位置" loading="lazy" decoding="async">
+  <figcaption>晶圓表面缺陷偵測結果：以標記呈現模型辨識出的異常位置。</figcaption>
+</figure>
 
 ## 3. 分類 Classification
 將樣本分成不同類別，或簡單標記為 OK / NG。此方式標記最簡單、訓練量少、推論速度快，但無法取得瑕疵位置與尺寸，因此無法量測或定位。
