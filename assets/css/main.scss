@@ -49,9 +49,9 @@ a { text-underline-offset: 0.18em; }
 .page__content img { display: block; max-width: 100%; height: auto; margin: 2rem auto 0.75rem; border-radius: 0.65rem; box-shadow: var(--shadow); }
 .page__content figcaption { color: var(--muted); text-align: center; font-size: 0.85em; }
 .article-figure { margin: 2.25rem 0; }
-.article-figure img { margin-bottom: .75rem; }
+.article-figure img { width: auto; max-width: 100%; height: auto; margin-right: auto; margin-bottom: .75rem; margin-left: auto; object-fit: contain; }
 .article-figure figcaption { max-width: 52rem; margin: 0 auto; line-height: 1.65; }
-.article-figure--compact img { width: auto; }
+.article-figure--compact { max-width: 32rem; margin-right: auto; margin-left: auto; }
 .page__content blockquote { border-left-color: var(--brand); background: var(--surface-soft); }
 .page__title { font-weight: 760; }
 .toc { border-color: var(--line); border-radius: 0.5rem; box-shadow: none; }
